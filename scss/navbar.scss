@@ -1,0 +1,55 @@
+.navbar-company-name{
+    position: absolute;
+    height: 21px;
+    left: 10%;
+    top: 52px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    letter-spacing: 0.14em;
+
+    color: #000000;
+}
+.menu-button{
+    display: none;
+    position: absolute;
+    height: 21px;
+    right: 10%;
+    top: 66px;
+    z-index: 500;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+
+.navbar-list{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    right: 66px;
+    top: 54px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+
+}
+
+.navbar-list-element{
+    margin: 0 46px;
+}
+@media screen and (max-width: 1000px){
+    .navbar-list{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
